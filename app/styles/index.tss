@@ -1,0 +1,12 @@
+".container": {
+	backgroundColor:"white"
+}
+
+
+
+"#listViewTinTuc":{
+	backgroundColor:"#fff",
+	defaultItemTemplate:"requiredTemplate",
+	separatorColor:"#fff",
+	color:"#000"
+}

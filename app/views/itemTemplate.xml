@@ -1,0 +1,12 @@
+<Alloy>
+	<ItemTemplate name="requiredTemplate">
+		<View id="imageLeft">
+			<ImageView id="imageTintuc" bindId="imageTintuc" />
+		</View>
+		<View id="rightInfo" layout="vertical">
+			<Label id="titleTintuc" bindId="titleTintuc" />
+			<Label id="descriptionTintuc" bindId="descriptionTintuc" />
+			<Label id="timeTintuc" bindId="timeTintuc" />
+		</View>
+	</ItemTemplate>
+</Alloy>

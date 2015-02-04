@@ -1,0 +1,28 @@
+<Alloy>
+	<NavigationWindow id="nav" platform="ios">
+		<Window id="win" class="container" title="Danh sách">
+			<!-- LIST VIEW TIN TUC -->
+			<ListView id="listViewTinTuc" onItemclick="onItemClick">	
+				<SearchBar platform="ios,android" />
+				<Templates>	
+					<Require src="itemTemplate" />
+				</Templates>	
+				<ListSection>
+					<ListItem template="requiredTemplate"
+						leftImage:image="/images/alien.png" 
+						title:text="Alien" 
+						subtitle:text="In space, no one can hear you scream"/>
+				</ListSection>	
+			</ListView>
+			<!-- END LIST VIEW TIN TUC -->
+			
+			
+			
+			<!-- this implements the toolbar menu icons.  remove if not needed 																						-->
+			<!-- information on the possible native values for systemButton(icon): http://docs.appcelerator.com/titanium/3.0/#!/api/Titanium.UI.iPhone.SystemButton -->
+			<RightNavButtons>
+				<Button systemButton="Ti.UI.iPhone.SystemButton.REFRESH" onClick="dorefresh"/>
+			</RightNavButtons>
+		</Window>
+	</NavigationWindow>
+</Alloy>

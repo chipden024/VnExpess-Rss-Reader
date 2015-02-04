@@ -1,0 +1,48 @@
+
+//image tin tuc
+"#imageLeft":{
+	width:60,
+	height:60,
+	left:5, top:15,
+}
+"#imageTintuc":{
+	width:60, height:60,
+}
+
+//tin tuc info
+"#rightInfo":{
+	width:Titanium.UI.SIZE,
+	height:Titanium.UI.SIZE,
+	left:70, top:5,
+}
+"#titleTintuc":{
+	width:Titanium.UI.SIZE,
+	height:Titanium.UI.SIZE,
+	top:0, left: 0,
+	font:{
+		fontSize:20,
+		fontWeight:"bold"
+	},
+	color:"#a00"
+}
+"#descriptionTintuc":{
+	width:Titanium.UI.SIZE,
+	height:Titanium.UI.SIZE,
+	top:5, left: 0,
+	font:{
+		fontSize:16,
+		fontWeight:"normal"
+	},
+	color:"#999"
+}
+"#timeTintuc":{
+	width:Titanium.UI.SIZE,
+	height:Titanium.UI.SIZE,
+	top:5, right:0,
+	font:{
+		fontSize:13,
+		fontWeight:"normal",
+		fontStyle:"italic"
+	},
+	color:"#999"
+}
